@@ -14,7 +14,8 @@
 \usepackage{mathtools}
 \usepackage{xparse}
 \usepackage{dsfont}
-\usepackage{ amssymb }
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 
 \title{	
@@ -41,20 +42,56 @@
 \subsection*{Let S be a non-empty subset of the real numbers which is bounded above. Let c be a real number and define T = \{cx $\mid$ x $\in$ S\}. Show that, if c $>$ 0, then T is non empty, bounded above and that supT = csupS. Give an example of a set S as above, such that, with c = -1, the set T is still bounded above but supT $\ne$ csupS.}
 
 \solution
-To show T is non-empty, observe S \(\neq \emptyset\), so \(T = \{cx\) \(|\) \(x \in S\} \neq \emptyset\).
+To show \(T\) is non-empty, observe \(S\) \(\neq \emptyset\), so \(T = \{cx\) \(|\) \(x \in S\} \neq \emptyset\).
 \\
 \\
-Since S is bounded above, by definition there exists some upper bound U such that \(x \leq U\) \(\forall\) \(x \in S\). So, by transitivity, \(cx \leq cU\) \(\forall\) \(x \in S\). Therefore, \(cU\) is an upper bound for T.
+Since \(S\) is bounded above, by definition there exists some upper bound \(U\) such that \(x \leq U\) \(\forall\) \(x \in S\). So, by transitivity, \(cx \leq cU\) \(\forall\) \(x \in S\). Therefore, \(cU\) is an upper bound for \(T\).
 \\
 \\
-Since S is non-empty, we know supS exists. By definition of \(supS\), \(s \leq supS\) \(\forall\) \(s \in S\). So, since c is positive, \(cs \leq csupS\). So \(t \leq csupS\) \(\forall\) \(t \in t\). So csupS is an upper bound for T.
+Since \(S\) is non-empty and bounded above, we know \(supS\) exists. By definition of \(supS\), \(\forall\) \(s \in S\), \(s \leq supS\). So, since c is positive, \(cs \leq csupS\). This means that \(t \leq csupS\) \(\forall\) \(t \in t\) and therefore \(csupS\) is an upper bound for \(T\).
 \\
 \\
-Since T is also non-empty and bounded above, we know supT also exists. Assume \(supT < csupS\). We will find a contradiction.
+Since \(T\) is also non-empty and bounded above, we know \(supT\) also exists. Assume \(supT < csupS\). We will find a contradiction.
 \\
 \\
-
-
+Since \(c > 0\):
+\begin{align}
+  \label{}
+  supT < csupS \nonumber \\
+  \Rightarrow \frac{supT}{c} < supS\nonumber
+\end{align}
+\\
+By definition of \(supS\), for any value \(X < supS\), \(\exists\) \(s \in S\) such that \(s>X\). So, \(\exists\) \(s' \in S\) such that
+\begin{align}
+  \label{}
+  s' > \frac{supT}{c} \nonumber \\
+  \Rightarrow cs' > supT \nonumber
+\end{align}
+\\
+\(cs' \in T\) by definition of \(T\), so \(cs' > supT\) is a contradiction.
+\\
+\begin{align}
+  \label{}
+  \therefore supT \geq csupS
+\end{align}
+\\
+But \(csupS\) is an upper bound for \(T\).
+\begin{align}
+  \label{}
+  \therefore supT \leq csupS
+\end{align}
+\\
+And so from (1) and (2), we know:
+\begin{align}
+  \label{}
+  supT = csupS \nonumber
+\end{align}
+\\
+As an example of \(supT \neq supS\) when \(c=-1\), take \(S = \{-1,-2\}\), so \(supS = -1\). With \(c=-1\), \(T = \{1,2\}\) and \(supT = 2\). But \(csupS = 1 \neq 2\), so \(csupS \neq supT\).
+\\
+\\
+This is true for any bounded \(S\) with \(|S| > 1\).
+\\
 \section*{Question 2}
 \subsection*{(i) If \((x_n)\) is a sequence such that \(\lim|x_n| = 0\), prove that \(\lim x_n = 0\) also.}
 
@@ -101,5 +138,15 @@ Note that since \(x_n^2 \geq 0\), \(|x_n|^2 = x_n^2 = |x_n^2|\).
 \\
 \\
 Therefore \(x_n^2\) is absolutely convergent, which implies it is convergent.
+\section*{Question 4}
+\subsection*{Write question 4 here}
+\solution
+\\
+Solve question 4 here.
+\section*{Question 5}
+\subsection*{Write question 5 here}
+\solution
+\\
+Solve question 5 here.
 \end{center}
 \end{document}
