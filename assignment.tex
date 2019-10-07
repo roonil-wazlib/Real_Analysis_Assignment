@@ -1,0 +1,105 @@
+\documentclass{article}
+
+
+\usepackage{minted}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{physics}
+\usepackage{mathtools}
+\usepackage{xparse}
+\usepackage{dsfont}
+\usepackage{ amssymb }
+
+
+\title{	
+	\normalfont\normalsize
+	\textsc{University of Canterbury, School of Mathematics and Statistics}\\ % Your university, school and/or department name(s)
+	\vspace{25pt} % Whitespace
+	\rule{\linewidth}{0.5pt}\\ % Thin top horizontal rule
+	\vspace{20pt} % Whitespace
+	{\huge MATH240 Assignment 2 - Real Analysis}\\ % The assignment title
+	\vspace{12pt} % Whitespace
+	\rule{\linewidth}{2pt}\\ % Thick bottom horizontal rule
+	\vspace{12pt} % Whitespace
+}
+
+\author{\LARGE Emma Hogan \\\\53837798} % Your name
+
+
+\date{\normalsize\today} % Today's date (\today) or a custom date
+\begin{document}
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+\section*{Question 1}
+\subsection*{Let S be a non-empty subset of the real numbers which is bounded above. Let c be a real number and define T = \{cx $\mid$ x $\in$ S\}. Show that, if c $>$ 0, then T is non empty, bounded above and that supT = csupS. Give an example of a set S as above, such that, with c = -1, the set T is still bounded above but supT $\ne$ csupS.}
+
+\solution
+To show T is non-empty, observe S \(\neq \emptyset\), so \(T = \{cx\) \(|\) \(x \in S\} \neq \emptyset\).
+\\
+\\
+Since S is bounded above, by definition there exists some upper bound U such that \(x \leq U\) \(\forall\) \(x \in S\). So, by transitivity, \(cx \leq cU\) \(\forall\) \(x \in S\). Therefore, \(cU\) is an upper bound for T.
+\\
+\\
+Since S is non-empty, we know supS exists. By definition of \(supS\), \(s \leq supS\) \(\forall\) \(s \in S\). So, since c is positive, \(cs \leq csupS\). So \(t \leq csupS\) \(\forall\) \(t \in t\). So csupS is an upper bound for T.
+\\
+\\
+Since T is also non-empty and bounded above, we know supT also exists. Assume \(supT < csupS\). We will find a contradiction.
+\\
+\\
+
+
+\section*{Question 2}
+\subsection*{(i) If \((x_n)\) is a sequence such that \(\lim|x_n| = 0\), prove that \(\lim x_n = 0\) also.}
+
+\solution
+\\
+By definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(\mathcal{E} \geq 0\), \(\exists\) \(N \in \mathds{N}\) such that \(\forall\) \(n\) \(\geq N\),
+
+\begin{align}
+  \label{}
+  ||x_n| - 0| \leq \mathcal{E} \nonumber \\
+  \Rightarrow ||x_n|| \leq \mathcal{E} \nonumber \\
+  \Rightarrow |x_n| \leq \mathcal{E} \nonumber \\
+  \Rightarrow |x_n - 0| \leq \mathcal{E} \nonumber \\
+  \Rightarrow \lim x_n = 0 \nonumber
+\end{align}
+
+\subsection*{(ii) Give an example of a sequence \((x_n)\) that does not converge but that \((|x_n|)\) converges.}
+\solution
+\\
+Define \((x_n)\) by \(x_n\ = (-1)^n\) which does not converge.
+\\
+\\
+\(|x_n| = |(-1)^n| = |-1|^n = 1\) so \((|x_n|)\) converges to 1.
+
+\section*{Question 3}
+\subsection*{Let $\sum x_n$ be a series that converges absolutely. Show that $\sum x^2_n$ converges.}
+\solution
+\\
+\\
+\\
+Since \(\sum |x_n|\) converges, we know that $\lim_{n\to\infty} |x_n|$\(=0\). So, by definition of the limit, we know \(\exists\) \(N\) such that \(\forall\) \(n\) \(\geq N\), \(|x_n| \leq 1\).
+\\
+\\
+We can remove a finite number of terms for the start of a series without change its behaviour. So, we consider \(\sum_{n=N}^{\infty} |x_n|\), so \(|x_n|\leq 1\) for every term in the sequence.
+\\
+\\
+Note that since \(x_n^2 \geq 0\), \(|x_n|^2 = x_n^2 = |x_n^2|\). 
+\\
+\\
+\(|x_n| \leq 1\) so \(|x_n|^2 = |x_n^2| \leq 1\).
+\\
+\\
+\(|x_n^2| \leq |x_n| \forall n \geq N\), so, since \(\sum_{n=N}^{\infty} |x_n|\) is convergent, \(\sum_{n=N}^{\infty} |x_n^2|\) is also convergent. Once again, N is just a finite number so it does not change the behaviour of the series.
+\\
+\\
+Therefore \(x_n^2\) is absolutely convergent, which implies it is convergent.
+\end{center}
+\end{document}
