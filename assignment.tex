@@ -97,7 +97,7 @@ This is true for any bounded \(S\) with \(|S| > 1\).
 
 \solution
 \\
-By definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(\mathcal{E} \geq 0\), \(\exists\) \(N \in \mathds{N}\) such that \(\forall\) \(n\) \(\geq N\),
+By definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(= \geq 0\), \(\exists\) \(N \in \mathds{N}\) such that \(\forall\) \(n\) \(\geq N\),
 
 \begin{align}
   \label{}
@@ -125,7 +125,7 @@ Define \((x_n)\) by \(x_n\ = (-1)^n\) which does not converge.
 Since \(\sum |x_n|\) converges, we know that $\lim_{n\to\infty} |x_n|$\(=0\). So, by definition of the limit, we know \(\exists\) \(N\) such that \(\forall\) \(n\) \(\geq N\), \(|x_n| \leq 1\).
 \\
 \\
-We can remove a finite number of terms for the start of a series without change its behaviour. So, we consider \(\sum_{n=N}^{\infty} |x_n|\), so \(|x_n|\leq 1\) for every term in the sequence.
+We can remove a finite number of terms for the start of a series without changing its behaviour. So, we consider \(\sum_{n=N}^{\infty} |x_n|\), so \(|x_n|\leq 1\) for every term in the sequence.
 \\
 \\
 Note that since \(x_n^2 \geq 0\), \(|x_n|^2 = x_n^2 = |x_n^2|\). 
@@ -134,17 +134,26 @@ Note that since \(x_n^2 \geq 0\), \(|x_n|^2 = x_n^2 = |x_n^2|\).
 \(|x_n| \leq 1\) so \(|x_n|^2 = |x_n^2| \leq 1\).
 \\
 \\
-\(|x_n^2| \leq |x_n| \forall n \geq N\), so, since \(\sum_{n=N}^{\infty} |x_n|\) is convergent, \(\sum_{n=N}^{\infty} |x_n^2|\) is also convergent. Once again, N is just a finite number so it does not change the behaviour of the series.
+\(|x_n^2| \leq |x_n|\) \(\forall n \geq N\), so, since \(\sum_{n=N}^{\infty} |x_n|\) is convergent, \(\sum_{n=N}^{\infty} |x_n^2|\) is also convergent. Once again, N is just a finite number so removing the first N terms has not changed the behaviour of the series.
 \\
 \\
-Therefore \(x_n^2\) is absolutely convergent, which implies it is convergent.
+Therefore \(\sum x_n^2\) is absolutely convergent, which implies it is convergent.
 \section*{Question 4}
-\subsection*{Write question 4 here}
+\subsection*{Prove, from the definition of limit, that \lim_{n\to\infty} x^2+x$ = 2.}
 \solution
 \\
-Solve question 4 here.
+The limit definition states:
+\\
+
+\(lim_{x\to p} f(x) = L\) \(\Rightarrow\) \(\forall\) \(\mathcal{E} > 0\), \(\exists\) \(\delta > 0\) such that, \(\forall x \in \mathds{R}\), \(0 < |x-p| < \delta\) we have \(x\) in the domain of \(f\) and \(|f(x)-L| < \mathcal{E}\).
+\\
+\\
+So, to show \(lim_{x\to p} (x^2 + x = 2)\), we need to find \(\delta > 0\) such that, \(\forall x \in \mathds{R}\), \(0<|x-1|<\delta\), we have \(|x^2+x-2| < \mathcal{E}\) \(\forall\) \(\mathcal{E}\).
+\\
+\\
+
 \section*{Question 5}
-\subsection*{Write question 5 here}
+\subsection*{Let $f$ be a continuous function on $(-1,1)$ with $f(0) = 1$. Show that there exists $\mathcal{E} >$ 0 such that for all $x$ with $|x| < \mathcal{E}$ we have $f(x) > 2/3$. }
 \solution
 \\
 Solve question 5 here.
