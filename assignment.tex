@@ -148,14 +148,63 @@ The limit definition states:
 \(lim_{x\to p} f(x) = L\) \(\Rightarrow\) \(\forall\) \(\mathcal{E} > 0\), \(\exists\) \(\delta > 0\) such that, \(\forall x \in \mathds{R}\), \(0 < |x-p| < \delta\) we have \(x\) in the domain of \(f\) and \(|f(x)-L| < \mathcal{E}\).
 \\
 \\
-So, to show \(lim_{x\to p} (x^2 + x = 2)\), we need to find \(\delta > 0\) such that, \(\forall x \in \mathds{R}\), \(0<|x-1|<\delta\), we have \(|x^2+x-2| < \mathcal{E}\) \(\forall\) \(\mathcal{E}\).
+So, to show \(lim_{x\to p} (x^2 + x - 2)\), we need to find \(\delta > 0\) such that, \(\forall\) \(x \in \mathds{R}\), \(0<|x-1|<\delta\), we have \(|x^2+x-2| < \mathcal{E}\) \(\forall\) \(\mathcal{E}\).
 \\
 \\
+Choose \(\delta = min\left\{\frac{\mathcal{E}}{4},2\right\}\).
+\\
+\\
+\begin{align*}
+  |x^2 + x - 2| &= |(x-1)(x-2)| \\
+  &= |x-1||x-2|\\
+\end{align*}
 
+From our definition, we already have \(|x-1| < \delta \leq \frac{\mathcal{E}}{4}\). So,
+\\
+\begin{align*}
+  |x-2| &= |x-1+3| \\
+  &= |(x-1)+3| \\
+  &\leq |x-1| + |3| \\
+\end{align*}
+
+By the triange inequality. Now using \(|x-1| < \delta\), with \(\delta = min\left\{\frac{\mathcal{E}}{4},2\right\}\), we get
+
+\begin{align*}
+	|x-2| &\leq |x-1| + 3 \\
+	&< 1 + 3 \\
+	&< 4 \\
+\end{align*}
+
+Now we have
+\begin{align*}
+	|x^2 + x - 2| &= |(x-1)|(x-2)| \\
+	&< \frac{\mathcal{E}}{4}\cdot4 \\
+	&= \mathcal{E}\\
+\end{align*}
+So we have found a \(\delta\) that satisfies the definition of the limit.
 \section*{Question 5}
 \subsection*{Let $f$ be a continuous function on $(-1,1)$ with $f(0) = 1$. Show that there exists $\mathcal{E} >$ 0 such that for all $x$ with $|x| < \mathcal{E}$ we have $f(x) > 2/3$. }
 \solution
 \\
-Solve question 5 here.
+Since \(f(x)\) is continuous at 0, we know by theorem 4.17 that:
+\\
+\begin{align*}
+	\lim_{x\to\infty} f(x) = 1 \\
+\end{align*}
+From the definition of the limit, we have some \(\delta > 0\) such that \(\forall x \in \mathcal{R}\), \(0<|x|<\delta\), we have \(x \in D(f)\) and \(|f(x) - 1| < \frac{1}{3}\).
+\\
+\begin{align*}
+	|f(x) - 1| &< \frac{1}{3} \\
+	\Rightarrow \frac{2}{3} < f(x) &< \frac{4}{3}
+\end{align*}
+So, by setting \(\mathcal{E} = \delta\), we have \(\mathcal{E} > 0\) such that \(f(x) > \frac{2}{3}\) \(\forall\) \(x\), \(0<|x|<\mathcal{E}\).     (\(\star\))
+\\
+\\
+Since \(f\) is continuous with \(f(0)=1\), \(|x|=0<\mathcal{E}\) works (since \(f(|0|)=1>\frac{2}{3}\)), so we can state that (\(\star\)) holds \(\forall\) \(x\) with \(|x| < \mathcal{E}\).
+\\
+\\
+\begin{center}
+Q.E.D.M.F
+\end{center}
 \end{center}
 \end{document}
