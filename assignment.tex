@@ -156,30 +156,26 @@ The limit definition states:
 So, to show \(lim_{x\to p} (x^2 + x - 2)\), we need to find \(\delta > 0\) such that, \(\forall\) \(x \in \mathds{R}\), \(0<|x-1|<\delta\), we have \(|x^2+x-2| < \mathcal{E}\) \(\forall\) \(\mathcal{E}\).
 \\
 \\
-Choose \(\delta = min\left\{\frac{\mathcal{E}}{4},2\right\}\).
-\\
+Choose \(\delta = min\left\{\frac{\mathcal{E}}{4},1\right\}\).
 \\
 \begin{align*}
   |x^2 + x - 2| &= |(x-1)(x-2)| \\
   &= |x-1||x-2|\\
 \end{align*}
-
-From our definition, we already have \(|x-1| < \delta \leq \frac{\mathcal{E}}{4}\). So,
+From our definition, we already have \(|x-1| < \delta < \frac{\mathcal{E}}{4}\). So,
 \\
 \begin{align*}
   |x-2| &= |x-1+3| \\
   &= |(x-1)+3| \\
   &\leq |x-1| + |3| \\
 \end{align*}
-
-By the triange inequality. Now using \(|x-1| < \delta\), with \(\delta = min\left\{\frac{\mathcal{E}}{4},2\right\}\), we get
+By the triange inequality. Now using \(|x-1| < \delta\), with \(\delta = min\left\{\frac{\mathcal{E}}{4},1\right\}\), we get
 
 \begin{align*}
 	|x-2| &\leq |x-1| + 3 \\
 	&< 1 + 3 \\
 	&< 4 \\
 \end{align*}
-
 Now we have
 \begin{align*}
 	|x^2 + x - 2| &= |(x-1)|(x-2)| \\
@@ -194,9 +190,9 @@ So we have found a \(\delta\) that satisfies the definition of the limit.
 Since \(f(x)\) is continuous at 0, we know by theorem 4.17 that:
 \\
 \begin{align*}
-	\lim_{x\to\infty} f(x) = 1 \\
+	\lim_{x\to\0} f(x) = 1 \\
 \end{align*}
-From the definition of the limit, we have some \(\delta > 0\) such that \(\forall x \in \mathcal{R}\), \(0<|x|<\delta\), we have \(x \in D(f)\) and \(|f(x) - 1| < \frac{1}{3}\).
+From the definition of the limit, we have some \(\delta > 0\) such that \(\forall x \in \mathds{R}\), \(0<|x|<\delta\), we have \(x \in D(f)\) and \(|f(x) - 1| < \frac{1}{3}\).
 \\
 \begin{align*}
 	|f(x) - 1| &< \frac{1}{3} \\
