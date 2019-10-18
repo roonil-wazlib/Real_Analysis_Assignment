@@ -53,10 +53,13 @@ To show \(T\) is non-empty, observe \(S\) \(\neq \emptyset\), so \(T = \{cx\) \(
 Since \(S\) is bounded above, by definition there exists some upper bound \(U\) such that \(x \leq U\) \(\forall\) \(x \in S\). So, since \(c\) is positive, \(cx \leq cU\) \(\forall\) \(x \in S\). Therefore, \(cU\) is an upper bound for \(T\).
 \\
 \\
-Since \(S\) is non-empty and bounded above, we know \(supS\) exists. By definition of \(supS\), this is an upper bound for S, so from our previous result, we know \(csupS\) is an upper bound for T. That is, \(t \leq csupS\) \(\forall\) \(t \in T\).
+Since \(S\) is non-empty and bounded above, we know \(supS\) exists. By definition of \(supS\), this is an upper bound for S, so from our previous result, we know \(csupS\) is an upper bound for T. That is, \(t \leq csupS\) \(\forall\) \(t \in T\). Additionally, since \(T\) is also non-empty and bounded above, \(supT\) also exists. Hence, we know:
 \\
-\\
-Since \(T\) is also non-empty and bounded above, we know \(supT\) also exists. Assume \(supT < csupS\). We will find a contradiction.
+\begin{align}
+  \label{}
+  supT \leq csupS
+\end{align}
+Assume \(supT < csupS\). We will find a contradiction.
 \\
 \\
 Since \(c > 0\):
@@ -78,12 +81,6 @@ By definition of \(supS\), for any value \(X < supS\), \(\exists\) \(s \in S\) s
 \begin{align}
   \label{}
   \therefore supT \geq csupS
-\end{align}
-\\
-But \(csupS\) is an upper bound for \(T\).
-\begin{align}
-  \label{}
-  \therefore supT \leq csupS
 \end{align}
 \\
 And so from (1) and (2), we know:
@@ -108,14 +105,15 @@ By definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(\mathcal{E} 
   \Rightarrow |x_n - 0| \leq \mathcal{E} \nonumber \\
   \Rightarrow \lim x_n = 0 \nonumber
 \end{align}
+Since the same definition applies to our end result.
 
 \subsection*{(ii) Give an example of a sequence \((x_n)\) that does not converge but that (\(|x_n|\)) converges.}
 \solution
 \\
-Define \((x_n)\) by \(x_n\ = (-1)^n\) which does not converge.
+Define \((x_n)\) by \(x_n = (-1)^n\), which does not converge.
 \\
 \\
-\(|x_n| = |(-1)^n| = |-1|^n = 1\) so \((|x_n|)\) converges to 1.
+\(|x_n| = |(-1)^n| = |-1|^n = 1\) so \((|x_n|)\) is a constant sequence and converges to 1.
 \\\\\\
 \section*{Question 3}
 \subsection*{Let $\sum x_n$ be a series that converges absolutely. Show that $\sum x^2_n$ converges.}
@@ -123,19 +121,19 @@ Define \((x_n)\) by \(x_n\ = (-1)^n\) which does not converge.
 \\
 \\
 \\
-Since \(\sum |x_n|\) converges, we know that $\lim_{n\to\infty} |x_n|$\(=0\). So, by definition of the limit, we know \(\exists\) \(N\) such that \(\forall\) \(n\) \(\geq N\), \(|x_n| \leq 1\).
+Since \(\sum |x_n|\) converges, we know that $\lim_{n\to\infty} |x_n|$\(=0\). So, by definition of the limit, we know \(\exists\) \(N\) such that \(\forall\) \(n\) \(\geq N\), \(|x_n| < 1\).
 \\
 \\
-We can remove a finite number of terms for the start of a series without changing its behaviour. So, we consider \(\sum_{n=N}^{\infty} |x_n|\), so \(|x_n|\leq 1\) for every term in the sequence.
+We can remove a finite number of terms for the start of a series without changing its behaviour. So, we consider \(\sum_{n=N}^{\infty} |x_n|\), so \(|x_n| < 1\) for every term in the sequence.
 \\
 \\
 Note that since \(x_n^2 \geq 0\), \(|x_n|^2 = x_n^2 = |x_n^2|\). 
 \\
 \\
-\(|x_n| \leq 1\) so \(|x_n|^2 = |x_n^2| \leq 1\).
+\(|x_n| < 1\) so \(|x_n|^2 = |x_n^2| < 1\).
 \\
 \\
-\(|x_n^2| \leq |x_n|\) \(\forall n \geq N\), so, since \(\sum_{n=N}^{\infty} |x_n|\) is convergent, \(\sum_{n=N}^{\infty} |x_n^2|\) is also convergent. Once again, N is just a finite number so removing the first N terms has not changed the behaviour of the series.
+\(|x_n^2| < |x_n| \leq |x_n|\) \(\forall n \geq N\), so, since \(\sum_{n=N}^{\infty} |x_n|\) is convergent, \(\sum_{n=N}^{\infty} |x_n^2|\) is also convergent. Once again, N is just a finite number so removing the first N terms has not changed the behaviour of the series.
 \\
 \\
 Therefore \(\sum x_n^2\) is absolutely convergent, which implies it is convergent.
@@ -143,11 +141,11 @@ Therefore \(\sum x_n^2\) is absolutely convergent, which implies it is convergen
 \\
 \\
 \section*{Question 4}
-\subsection*{Prove, from the definition of limit, that \lim_{n\to\infty} x^2+x$ = 2.}
+\subsection*{Prove, from the definition of limit, that \lim_{n\to\infty} x^2+x = 2.}
 \solution
 \\\\
 The limit definition states:
-\\
+\\\\
 \(lim_{x\to p} f(x) = L\) \(\Rightarrow\) \(\forall\) \(\mathcal{E} > 0\), \(\exists\) \(\delta > 0\) such that, \(\forall x \in \mathds{R}\), \(0 < |x-p| < \delta\) we have \(x\) in the domain of \(f\) and \(|f(x)-L| < \mathcal{E}\).
 \\
 \\
@@ -161,6 +159,7 @@ Choose \(\delta = min\left\{\frac{\mathcal{E}}{4},1\right\}\).
   &= |x-1||x-2|\\
 \end{align*}
 From our definition, we already have \(|x-1| < \delta < \frac{\mathcal{E}}{4}\). So,
+\\
 \begin{align*}
   |x-2| &= |x-1+3| \\
   &= |(x-1)+3| \\
@@ -175,21 +174,21 @@ By the triangle inequality. Now using \(|x-1| < \delta\), with \(\delta = min\le
 \end{align*}
 Now we have
 \begin{align*}
-	|x^2 + x - 2| &= |(x-1)|(x-2)| \\
+	|x^2 + x - 2| &= |(x-1)||(x-2)| \\
 	&< \frac{\mathcal{E}}{4}\cdot4 \\
 	&= \mathcal{E}\\
 \end{align*}
-So we have found a \(\delta\) that satisfies the definition of the limit.
+So we have found a \(\delta\) that satisfies the definition of the limit \(\forall\) \(\mathcal{E}\).
 \section*{Question 5}
 \subsection*{Let $f$ be a continuous function on $(-1,1)$ with $f(0) = 1$. Show that there exists $\mathcal{E} >$ 0 such that for all $x$ with $|x| < \mathcal{E}$ we have $f(x) > 2/3$. }
 \solution
 \\
-Since \(f(x)\) is continuous at 0, we know by theorem 4.17 that:
+Since \(f(x)\) is continuous at 0, we know that:
 \\
 \begin{align*}
-	\lim_{x\to\0} f(x) = 1 \\
+	\lim_{x\to 0} f(x) = 1 \\
 \end{align*}
-From the definition of the limit, we have some \(\delta > 0\) such that \(\forall x \in \mathds{R}\), \(0<|x|<\delta\), we have \(x \in D(f)\) and \(|f(x) - 1| < \frac{1}{3}\).
+From the definition of the limit, we have some \(\delta > 0\) such that \(\forall\) \(x \in \mathds{R}\), \(0<|x|<\delta\), we have \(x \in D(f)\) and \(|f(x) - 1| < \frac{1}{3}\).
 \\
 \begin{align*}
 	|f(x) - 1| &< \frac{1}{3} \\

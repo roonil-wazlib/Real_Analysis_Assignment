@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  8 OCT 2019 01:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  18 OCT 2019 13:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1570,7 +1570,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \begin{document}
+l.36 \begin{document}
                      
 Refer to the installation instructions in the minted documentation for more inf
 ormation.
@@ -1578,18 +1578,18 @@ ormation.
 (./assignment.aux)
 \openout1 = `assignment.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1754,28 +1754,34 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 \c@lstlisting=\count305
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<xkcd.png, id=1, 1239.63126pt x 486.81876pt>
+File: xkcd.png Graphic file (type png)
+<use xkcd.png>
+Package pdftex.def Info: xkcd.png  used on input line 42.
+(pdftex.def)             Requested size: 469.75502pt x 184.47307pt.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./xkcd.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 47.
 
 ! Undefined control sequence.
-l.44 \solution
+l.49 \solution
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1784,42 +1790,47 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--58
+Underfull \hbox (badness 10000) in paragraph at lines 50--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--58
+Underfull \hbox (badness 10000) in paragraph at lines 50--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--58
+Underfull \hbox (badness 10000) in paragraph at lines 50--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--58
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--95
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--95
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
 ! Undefined control sequence.
-l.98 \solution
+l.97 \solution
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1834,20 +1845,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 B
-       y definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(\m...
+l.99 B
+      y definition of the limit, \(\lim|x_n| = 0 \Rightarrow \forall\) \(\ma...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 100.
-
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [1]
+)
 ! Undefined control sequence.
-l.112 \solution
+l.99 ...) \(\geq N\), \(||x_n| - 0| \leq \matthcal
+                                                  {E}\).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1]
+! Undefined control sequence.
+l.111 \solution
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1862,25 +1882,53 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 D
-       efine \((x_n)\) by \(x_n\ = (-1)^n\) which does not converge.
+l.113 D
+       efine \((x_n)\) by \(x_n = (-1)^n\), which does not converge.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
 ! Undefined control sequence.
-l.121 \solution
+l.120 \solution
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1902,20 +1950,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 S
+l.124 S
        ince \(\sum |x_n|\) converges, we know that $\lim_{n\to\infty} |x_n|$...
 
 Your command was ignored.
@@ -1923,32 +1958,63 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--143
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 ...limit, that \lim_{n\to\infty} x^2+x = 2.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 ...limit, that \lim_{n\to\infty} x^2+x = 2.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.143 \solution
+l.145 \solution
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1963,20 +2029,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 S
-       olve question 4 here.
+l.146 \\\\
+          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.148 \solution
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1985,13 +2042,84 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 S
-       olve question 5 here.
+l.147 T
+       he limit definition states:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--157
+
+ []
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
+
+ []
+
+! Undefined control sequence.
+l.184 \solution
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 S
+       ince \(f(x)\) is continuous at 0, we know that:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
+
+ []
+
 
 ! LaTeX Error: \begin{document} ended by \end{center}.
 
@@ -1999,7 +2127,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \end{center}
+l.203 \end{center}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2008,40 +2136,39 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.151 \end{center}
+l.203 \end{center}
                   
 Things are pretty mixed up, but I think the worst is over.
 
-[3] (./assignment.aux) ) 
+[4] (./assignment.aux) ) 
 Here is how much of TeX's memory you used:
- 18949 strings out of 492982
- 343764 string characters out of 6134896
- 442224 words of memory out of 5000000
- 22309 multiletter control sequences out of 15000+600000
- 539258 words of font info for 61 fonts, out of 8000000 for 9000
+ 18957 strings out of 492982
+ 343857 string characters out of 6134896
+ 443157 words of memory out of 5000000
+ 22316 multiletter control sequences out of 15000+600000
+ 538957 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,43p,10408b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,43p,10408b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcs
-c10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-
-Output written on assignment.pdf (4 pages, 159106 bytes).
+m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on assignment.pdf (5 pages, 224592 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
